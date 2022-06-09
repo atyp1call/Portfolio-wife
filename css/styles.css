@@ -420,7 +420,7 @@ img{
         row-gap: 0;
     }
     .home__img{
-        width: 600px;
+        width: 700px;
         right: 10%;
     }
 
@@ -461,6 +461,13 @@ img{
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
     }
+}
+
+@media screen and (min-width: 820px){
+   .home__img{
+      width: 600px;
+      right: 10%;
+  } 
 }
 
 @media screen and (min-width: 1024px){
